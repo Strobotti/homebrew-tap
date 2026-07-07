@@ -1,13 +1,13 @@
 cask "linkquisition" do
-  version "2.3.0"
-  sha256 "3e5130835c095b756351d0295a6f37df4dbbc4bfcdef244f608c2875de9085b6"
+  version "2.4.0"
+  sha256 "f8c43a865bf9075f9b9a3b0f4820e8f2673e1ad44652423fa3acc5fec3f8228d"
 
   url "https://github.com/Strobotti/linkquisition/releases/download/v#{version}/Linkquisition_macOS_universal.zip"
   name "Linkquisition"
   desc "Fast, configurable browser-picker for macOS and Linux"
   homepage "https://github.com/Strobotti/linkquisition"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Linkquisition.app"
 
