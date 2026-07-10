@@ -1,6 +1,6 @@
 cask "linkquisition" do
-  version "2.10.0"
-  sha256 "0c662ba3d47df1c089029479b40322f12e2fdd64f825319d6b5b39f8581645be"
+  version "2.11.0"
+  sha256 "86ce0fefe5b91f1ed6b557ff94e19df7470327c5fcfd7a51786241012f8f3299"
 
   url "https://github.com/Strobotti/linkquisition/releases/download/v#{version}/Linkquisition_macOS_universal.zip"
   name "Linkquisition"
